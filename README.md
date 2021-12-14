@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Angular-Examples
 ejercicios de angular correspondiente a mi aprendizaje
 =======
@@ -30,3 +31,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 >>>>>>> 07ad0a8 (initial commit)
+=======
+# Angular-Examples
+ejercicios de angular correspondiente a mi aprendizaje
+>>>>>>> 46f889f (Git rebase to master)
