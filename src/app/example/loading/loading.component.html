@@ -1,0 +1,11 @@
+<h2>Datos de la peliculas</h2>
+<div *ngIf="!peliculas"><img src="https://i.stack.imgur.com/MEBIB.gif" alt=""></div>
+<div *ngIf="peliculas?.length === 0"><p>No hay peliculas para mostrar</p></div>
+<div *ngIf="peliculas?.length>0"> 
+    <div *ngFor="let pelicula of peliculas;let index = index">
+        <div>Pelicula {{index}}: {{pelicula.titulo}}</div>
+        <div>{{pelicula.fechaLanzamiento | date: "dd-MMM-yyy" | uppercase}}</div>
+        <div>{{pelicula.precio | currency}}</div>
+        <hr>
+    </div>
+</div>
